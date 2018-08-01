@@ -1,0 +1,138 @@
+$duoresp-red: #91222d;
+$duoresp-grey: #333333;
+
+
+.header_text {
+	-ms-grid-row: 2;
+}
+
+.how-to {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 3;
+	grid-column: 2/-2;
+	-ms-grid-column-align: center;
+	justify-self: center;
+	font-size: 6vw;
+	color: $duoresp-red;
+}
+
+.video {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 4;
+	grid-column: 2/-2;
+	-ms-grid-column-align: center;
+	justify-self: center;
+	margin-bottom: 40px;
+	max-width: 100%;
+}
+
+.links {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 5;
+	grid-column: 2/-2;
+	width: 100%;
+	-ms-grid-column-align: center;
+    justify-self: center;
+}
+.patient-guide,.micrograms-160,.micrograms-320{
+	grid-column: 2/-2;
+	justify-self: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	img {
+		margin-right: 9%;
+		max-width: 9%;
+	}
+	p {
+		color: $duoresp-grey;
+		font-size: 3vw;
+	}
+}
+
+.uk-patients {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 6;
+	grid-column: 2/-2;
+	-ms-grid-column-align: center;
+	justify-self: center;
+	font-size: 3vw;
+}
+
+.back-button {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 7;
+	grid-column: 2/-2;
+	-ms-grid-column-align: center;
+	justify-self: center;
+	max-width: 40%;
+	margin: 40px;
+
+	
+}
+// .footer {
+// 	grid-row: 10/13;
+// }
+
+// .footer-nav {
+// 	grid-row: 10;
+// }
+// .disclaimer {
+	
+// 	grid-row: 10;
+
+// }
+// .teva-logo {
+	
+
+// 	grid-row: 10;
+
+// }
+
+
+// @media only screen and (max-width: 1026px) {
+
+
+// 	.footer-nav { 
+
+// 		grid-row: 11;
+	
+// 	}
+// 	.teva-logo {
+
+// 		grid-row: 12;
+	
+// 	}
+// }
+
+@media screen and (min-width: 750px) {
+	.how-to {
+		grid-column: 2/-2;
+		justify-self: center;
+		font-size: 40px;
+		color: $duoresp-red;
+	}
+
+	.video {
+		width: 670px;
+	}
+	.links {
+		width: 671px;
+	}
+	.patient-guide,.micrograms-160,.micrograms-320 {
+		p {
+		font-size: 20px;
+		}
+	}
+	.uk-patients {
+		font-size: 20px;
+	}
+
+}

@@ -1,0 +1,301 @@
+$duoresp-red: #91222d;
+$duoresp-grey: #333333;
+
+.header_text {
+	-ms-grid-row: 2;
+}
+
+.bullets {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	grid-column: 2/-2;
+	-ms-grid-row: 3;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	color: $duoresp-grey;
+	max-width: 400px;
+	font-size: 20px;
+	list-style-image: url(../assets/img/hcp/bullet-icon.png);
+
+	li {
+		margin-bottom: 40px;
+	}
+	&.two {
+		-ms-grid-row: 5;
+	}
+}
+
+.inhalers {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: wrap;
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 4;
+	grid-column: 2/-2;
+	margin-bottom: 70px;
+	-ms-grid-column-align: center;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+.sub_text {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	grid-column: 2/-2;
+	-ms-grid-row: 7;
+	font-size: 7vw;
+	color: $duoresp-red;
+	justify-self: center;
+	-ms-grid-column-align: center;
+
+	&.two {
+		-ms-grid-row: 10;
+	}
+	&.three {
+		-ms-grid-row: 12;
+	}
+}
+.know_more {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	grid-column: 2/-2;
+	-ms-grid-row: 6;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	margin: 0;
+}
+
+.video {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 8;
+	grid-column: 2/-2;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	margin-bottom: 40px;
+	max-width: 100%;
+}
+
+.links {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 9;
+	grid-column: 2/-2;
+	width: 100%;
+    justify-self: center;
+    -ms-grid-column-align: center;
+
+    &.two {
+    	-ms-grid-row: 13;
+    }
+}
+.patient-guide {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	grid-column: 2/-2;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	display: flex;
+	align-items: center;
+	img {
+		margin-right: 9%;
+		max-width: 9%;
+	}
+	p {
+		color: $duoresp-grey;
+		font-size: 3vw;
+	}
+}
+
+.table {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	grid-column: 2/-2;
+	-ms-grid-row: 11;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	margin-bottom: 40px;
+	max-width: 100%;
+}
+
+.spiromax_guides {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 14;
+	grid-column: 2/-2;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	max-width: 670px;
+}
+
+#dropdown {
+	width: 100%;
+	height: 100%;
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 15;
+	grid-column: 2/-2;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: url(../assets/img/hcp/dropdown.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.dropbtn {
+	background: transparent;
+	color: #fff;
+	padding: 16px;
+	width: 100%;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown-content {
+	position: relative;
+	width: 100%;
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	font-family: unit-regular;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+#dropdown .dropdown-content {
+
+	&.show {
+		display: block;
+		height: 210px;
+		overflow: scroll;
+	}
+}
+
+.further-info {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 16;
+	grid-column: 2/-2;
+	justify-self: center;
+	-ms-grid-column-align: center;
+}
+
+.back-button {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 17;
+	grid-column: 2/-2;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	max-width: 40%;
+	margin: 40px;
+}
+
+.key {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 4;
+	grid-column: 2/-2;
+	-ms-grid-row: 18;
+	justify-self: center;
+	-ms-grid-column-align: center;
+	font-size: 12px;
+	color: $duoresp-grey;
+}
+
+.footer {
+	-ms-grid-row: 19;
+	-ms-grid-column-span: 22;
+	grid-row: 19/22;
+}
+
+.footer-nav {
+	-ms-grid-row: 19;
+	grid-row: 19;
+}
+.disclaimer {
+	-ms-grid-row: 19;
+	grid-row: 19;
+
+}
+.teva-logo {
+	-ms-grid-row: 19;
+	grid-row: 19;
+
+}
+
+.footer-nav ul {
+	width: 351px;
+}
+
+
+
+
+@media only screen and (max-width: 1026px) {
+
+
+	.footer-nav { 
+		-ms-grid-row: 20;
+		grid-row: 20;
+	}
+	.teva-logo {
+		-ms-grid-row: 21;
+		grid-row: 21;
+	}
+}
+@media screen and (min-width: 441px) {
+	
+	.sub_text {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 441px) {
+	
+	.sub_text {
+		-ms-grid-column-align: left;
+		justify-self: left;
+	}
+}
+@media screen and (min-width: 750px) {
+
+	#dropdown {
+		width: 476px;
+		height: 53px;
+	}
+	.dropbtn {
+		height: 53px;
+	}
+	.video {
+		width: 1000px;
+	}
+
+	.table {
+		width: 1000px;
+	}
+
+	.links {
+		width: 671px;
+	}
+	.patient-guide {
+		p {
+		font-size: 20px;
+		}
+	}
+	.spiromax_guides {
+		font-size: 20px;
+	}
+	.further-info {
+		font-size: 20px;
+	}
+}

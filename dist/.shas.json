@@ -1,0 +1,192 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "hcp.html",
+        "sha": "9cf383acaf8ca4cc7b374256d0a1779f7e782fdf"
+      }
+    ],
+    "outputSha": "ee62304206a759fda37c5e8272add49b1d034c06",
+    "input": "hcp.html",
+    "output": [
+      "hcp.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "2a67a55ae92ab3ff662fbbc136e13052fa9cf38f"
+      }
+    ],
+    "outputSha": "fec7ce80502424918ba37bf0255f874a82cf077e",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "legal-notice.html",
+        "sha": "08b943bc6447ebdeaec0f56c1424bea6f80466f5"
+      }
+    ],
+    "outputSha": "96d1b6297173f535db1656fb32b4055696f3fc08",
+    "input": "legal-notice.html",
+    "output": [
+      "legal-notice.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "patient-information.html",
+        "sha": "5c0b577e7fe19a1bba16968580a4648c1c8e5463"
+      }
+    ],
+    "outputSha": "ab791fe3093024a880045a6cdb6f07c003a7c81d",
+    "input": "patient-information.html",
+    "output": [
+      "patient-information.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "patient.html",
+        "sha": "54e0e9e33e9b7d8c017cf35188518a09d3120ffb"
+      }
+    ],
+    "outputSha": "6ae7366508841a58851f0008371016a40800ef3b",
+    "input": "patient.html",
+    "output": [
+      "patient.html"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/legal-notice.scss",
+        "sha": "d7bd3f0ece4e42dababe9a061743aebb66765387"
+      }
+    ],
+    "outputSha": "08bfb1c7ae1712f9db525178d5ab5d0629a7a8ab",
+    "input": "styles/legal-notice.scss",
+    "output": [
+      "styles/legal-notice.css.map",
+      "styles/legal-notice.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/hcp.scss",
+        "sha": "1a2744f41803dd1d712c0721e9d0646e09fd46c4"
+      }
+    ],
+    "outputSha": "0f38856d15ef88814c5bc3e954b33076e432af13",
+    "input": "styles/hcp.scss",
+    "output": [
+      "styles/hcp.css.map",
+      "styles/hcp.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/index.scss",
+        "sha": "c55ea028131652df7432b4888799b670c1c7a0f0"
+      }
+    ],
+    "outputSha": "e9ccb2ec6da4098a4618005d380b94f18d90c39b",
+    "input": "styles/index.scss",
+    "output": [
+      "styles/index.css.map",
+      "styles/index.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "0b3180e858685c2c81bfd35576cdea71b8f77559"
+      }
+    ],
+    "outputSha": "4c9cb637035190db8cd2577fc597d916954c44ac",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/patient-information.scss",
+        "sha": "b472d8d935581ad999dc5028338be7464c91e226"
+      }
+    ],
+    "outputSha": "311734e1a73bba22fb82f83ed7b86cd294dc0602",
+    "input": "styles/patient-information.scss",
+    "output": [
+      "styles/patient-information.css.map",
+      "styles/patient-information.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/patient.scss",
+        "sha": "985ffb6a32743e88c372292875da1e70791e11a9"
+      }
+    ],
+    "outputSha": "543e6fa6274bab57b14e6fdc6f177fa1dfd9d643",
+    "input": "styles/patient.scss",
+    "output": [
+      "styles/patient.css.map",
+      "styles/patient.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/hcp.js",
+        "sha": "98c13bb0473a2e70ed76960ebe5c48335e24d907"
+      }
+    ],
+    "outputSha": "eb6a2a9880f5351c21bb2b5bffd66447ce200d4f",
+    "input": "scripts/hcp.js",
+    "output": [
+      "scripts/hcp.js.map",
+      "scripts/hcp.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    ],
+    "outputSha": "c28677a6e1329b6b3dfe136f8e73646c42682e10",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  }
+]
