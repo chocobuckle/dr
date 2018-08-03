@@ -87,7 +87,7 @@
         <p class="modal__text__sub-header-text">You are not obliged to see a representative when requesting a placebo.
         </p>
         <div class="form-wrapper">
-          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={this.handleSubmit}>
+          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
             <p hidden>
               <label for="bot-field">
@@ -126,7 +126,7 @@
             </p>
             <p class="modal__text">
               <label for="profession">
-                <input placeholder="Enter Profession: e.g. doctor, pharmacist, nurse etc" type="text" id="profession" name="profession" required />
+                <input placeholder="Enter Profession: e.g. doctor, pharmacist, nurse etc." type="text" id="profession" name="profession" required />
               </label>
             </p>
             <p class="modal__text">
@@ -134,9 +134,8 @@
                 <input placeholder="Enter Phone Number" type="number" id="telephone" name="telephone" required />
               </label>
             </p>
-            <div class="button-wrapper">
-              <button type="submit">Send</button>
-            </div>
+            <br>
+            <button class="form-button" type="submit">Send</button>
           </form>
         </div>
       </div>

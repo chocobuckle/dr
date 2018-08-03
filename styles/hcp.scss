@@ -308,7 +308,6 @@ $duoresp-grey: #333333;
 	}
 }
 
-
 /* MODAL */
 .popup{
   width: 100%;
@@ -359,18 +358,16 @@ li.modal__text {
   margin-left: 1.5em;
 }
 
-.form-wrapper {
-  display: flex;
-  width: 100%;
+.form-button {
+  width: 125px;
+  height: 40px;
+  color: #91222d;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
-form {
-  width: 100%;
-}
-
-form input,
-form textarea {
-  width: 80%;
+form input {
+  width: 83%;
   font-size: 1.25rem;
   padding: 0.4em;
 }
