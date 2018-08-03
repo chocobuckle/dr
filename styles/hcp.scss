@@ -367,9 +367,17 @@ li.modal__text {
 }
 
 form input {
+  background: #F2F2F2;
   width: 83%;
   font-size: 1.25rem;
   padding: 0.4em;
+}
+
+form input:active,
+form input:focus,
+form input:hover {
+  background: #fff;
+  border: 2px solid rgb(238, 238, 238);
 }
 
 .popup:before{
