@@ -325,11 +325,16 @@ $duoresp-grey: #333333;
 }
 
 h1.popup__title,
+p.modal__text__sub-header-text,
 p.modal__text,
 p.modal__text__bold,
 ul.modal__text,
 li.modal__text {
   color: #F7F1EF;
+}
+
+p.modal__text__sub-header-text {
+  margin: 0 auto 0.15em;
 }
 
 h1.popup__title {
@@ -354,8 +359,20 @@ li.modal__text {
   margin-left: 1.5em;
 }
 
-.modal__text {
-  margin: 0 auto 0.15em;
+.form-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 80%;
+  font-size: 1.5rem;
+  padding: 0.25em;
 }
 
 .popup:before{
@@ -419,7 +436,7 @@ li.modal__text {
 
 .popup__block{
   height: calc(100vh - 40px);
-  padding: 5% 15%;
+  padding: 2.5% 15%;
   box-sizing: border-box;
   position: relative;
 
