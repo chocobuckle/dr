@@ -334,13 +334,11 @@ li.modal__text {
 
 h1.popup__title {
   font-weight: 700;
-
 }
 
 p.modal__text__bold {
   text-align: left;
   font-weight: 700;
-
 }
 
 p.modal__text,
@@ -354,6 +352,10 @@ li.modal__text {
 ul.modal__text,
 li.modal__text {
   margin-left: 1.5em;
+}
+
+.modal__text {
+  margin: 0 auto 0.15em;
 }
 
 .popup:before{
