@@ -56,8 +56,16 @@ $duoresp-grey: #333333;
 	}
 	&.three {
 		-ms-grid-row: 12;
-	}
+  }
 }
+
+.placebo_text {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+  justify-self: center;
+}
+
 .know_more {
 	-ms-grid-column: 2;
 	-ms-grid-column-span: 4;
