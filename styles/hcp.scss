@@ -244,7 +244,7 @@ $duoresp-grey: #333333;
 @media only screen and (max-width: 1026px) {
 
 
-	.footer-nav { 
+	.footer-nav {
 		-ms-grid-row: 20;
 		grid-row: 20;
 	}
@@ -254,14 +254,14 @@ $duoresp-grey: #333333;
 	}
 }
 @media screen and (min-width: 441px) {
-	
+
 	.sub_text {
 		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 441px) {
-	
+
 	.sub_text {
 		-ms-grid-column-align: left;
 		justify-self: left;
@@ -281,7 +281,7 @@ $duoresp-grey: #333333;
 	}
 
 	.table {
-		width: 1000px;
+		width: 682px;
 	}
 
 	.links {
