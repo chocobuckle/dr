@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "hcp.html",
-        "sha": "9cf383acaf8ca4cc7b374256d0a1779f7e782fdf"
+        "sha": "a72d2b32c2ee02e2a79744d2ce798b9594c974ed"
       }
     ],
-    "outputSha": "ee62304206a759fda37c5e8272add49b1d034c06",
+    "outputSha": "889a68f3ec4c0c94d3acdaac3c7a71dcd91ce039",
     "input": "hcp.html",
     "output": [
       "hcp.html"
@@ -18,10 +18,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "2a67a55ae92ab3ff662fbbc136e13052fa9cf38f"
+        "sha": "f5e4c12c82343ce5770ed98b719e1eecb25847ea"
       }
     ],
-    "outputSha": "fec7ce80502424918ba37bf0255f874a82cf077e",
+    "outputSha": "b11f8683b23f5e8256e2acde8b2d15b1b2274868",
     "input": "index.html",
     "output": [
       "index.html"
@@ -46,10 +46,10 @@
     "inputSha": [
       {
         "file": "patient-information.html",
-        "sha": "5c0b577e7fe19a1bba16968580a4648c1c8e5463"
+        "sha": "c0346d0adb6cc641af5febb4eb4e863573f50830"
       }
     ],
-    "outputSha": "ab791fe3093024a880045a6cdb6f07c003a7c81d",
+    "outputSha": "d7c0995ebb839fa070124735ed9219e1fcedfe72",
     "input": "patient-information.html",
     "output": [
       "patient-information.html"
@@ -60,103 +60,13 @@
     "inputSha": [
       {
         "file": "patient.html",
-        "sha": "54e0e9e33e9b7d8c017cf35188518a09d3120ffb"
+        "sha": "ed46eb77241acfc4b76480bdca64367b2e160051"
       }
     ],
-    "outputSha": "6ae7366508841a58851f0008371016a40800ef3b",
+    "outputSha": "4fb61d3488f46f3969890c638b8eccaa37c81f72",
     "input": "patient.html",
     "output": [
       "patient.html"
-    ]
-  },
-  {
-    "type": "node-sass@4.9.0::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/legal-notice.scss",
-        "sha": "d7bd3f0ece4e42dababe9a061743aebb66765387"
-      }
-    ],
-    "outputSha": "08bfb1c7ae1712f9db525178d5ab5d0629a7a8ab",
-    "input": "styles/legal-notice.scss",
-    "output": [
-      "styles/legal-notice.css.map",
-      "styles/legal-notice.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.9.0::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/hcp.scss",
-        "sha": "1a2744f41803dd1d712c0721e9d0646e09fd46c4"
-      }
-    ],
-    "outputSha": "0f38856d15ef88814c5bc3e954b33076e432af13",
-    "input": "styles/hcp.scss",
-    "output": [
-      "styles/hcp.css.map",
-      "styles/hcp.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.9.0::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/index.scss",
-        "sha": "c55ea028131652df7432b4888799b670c1c7a0f0"
-      }
-    ],
-    "outputSha": "e9ccb2ec6da4098a4618005d380b94f18d90c39b",
-    "input": "styles/index.scss",
-    "output": [
-      "styles/index.css.map",
-      "styles/index.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.9.0::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/main.scss",
-        "sha": "0b3180e858685c2c81bfd35576cdea71b8f77559"
-      }
-    ],
-    "outputSha": "4c9cb637035190db8cd2577fc597d916954c44ac",
-    "input": "styles/main.scss",
-    "output": [
-      "styles/main.css.map",
-      "styles/main.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.9.0::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/patient-information.scss",
-        "sha": "b472d8d935581ad999dc5028338be7464c91e226"
-      }
-    ],
-    "outputSha": "311734e1a73bba22fb82f83ed7b86cd294dc0602",
-    "input": "styles/patient-information.scss",
-    "output": [
-      "styles/patient-information.css.map",
-      "styles/patient-information.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.9.0::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/patient.scss",
-        "sha": "985ffb6a32743e88c372292875da1e70791e11a9"
-      }
-    ],
-    "outputSha": "543e6fa6274bab57b14e6fdc6f177fa1dfd9d643",
-    "input": "styles/patient.scss",
-    "output": [
-      "styles/patient.css.map",
-      "styles/patient.css"
     ]
   },
   {
@@ -187,6 +97,96 @@
     "output": [
       "scripts/main.js.map",
       "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/hcp.scss",
+        "sha": "be43b9bd1d2ba00f563df1d6d2fefaeb57b86128"
+      }
+    ],
+    "outputSha": "4c26e5c309f7ff1443fb79d6124718713e524bb2",
+    "input": "styles/hcp.scss",
+    "output": [
+      "styles/hcp.css.map",
+      "styles/hcp.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/index.scss",
+        "sha": "c55ea028131652df7432b4888799b670c1c7a0f0"
+      }
+    ],
+    "outputSha": "e9ccb2ec6da4098a4618005d380b94f18d90c39b",
+    "input": "styles/index.scss",
+    "output": [
+      "styles/index.css.map",
+      "styles/index.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/legal-notice.scss",
+        "sha": "d7bd3f0ece4e42dababe9a061743aebb66765387"
+      }
+    ],
+    "outputSha": "08bfb1c7ae1712f9db525178d5ab5d0629a7a8ab",
+    "input": "styles/legal-notice.scss",
+    "output": [
+      "styles/legal-notice.css.map",
+      "styles/legal-notice.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "8c1dfbe76f9d148be34e4bc859c57c3305cbb157"
+      }
+    ],
+    "outputSha": "688fbc9734e8b11476de1bcf2016c9208e6c65ef",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/patient-information.scss",
+        "sha": "b472d8d935581ad999dc5028338be7464c91e226"
+      }
+    ],
+    "outputSha": "311734e1a73bba22fb82f83ed7b86cd294dc0602",
+    "input": "styles/patient-information.scss",
+    "output": [
+      "styles/patient-information.css.map",
+      "styles/patient-information.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.9.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/patient.scss",
+        "sha": "10868f0a11081beb4a78c1d2ab02447cf911a75d"
+      }
+    ],
+    "outputSha": "00ba03b92fb3a15d49fa3aee98dec0d08cdf5e45",
+    "input": "styles/patient.scss",
+    "output": [
+      "styles/patient.css.map",
+      "styles/patient.css"
     ]
   }
 ]
