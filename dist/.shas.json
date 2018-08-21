@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "hcp.html",
-        "sha": "a72d2b32c2ee02e2a79744d2ce798b9594c974ed"
+        "sha": "86e2a925ee8f25a639d4bfb1fbee2282c5a25bca"
       }
     ],
-    "outputSha": "889a68f3ec4c0c94d3acdaac3c7a71dcd91ce039",
+    "outputSha": "3b04118b021e783e91aa686818abe126bd08f77e",
     "input": "hcp.html",
     "output": [
       "hcp.html"
@@ -17,25 +17,11 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "index.html",
-        "sha": "f5e4c12c82343ce5770ed98b719e1eecb25847ea"
-      }
-    ],
-    "outputSha": "b11f8683b23f5e8256e2acde8b2d15b1b2274868",
-    "input": "index.html",
-    "output": [
-      "index.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "legal-notice.html",
-        "sha": "08b943bc6447ebdeaec0f56c1424bea6f80466f5"
+        "sha": "8f440a05d9b4d98e1493b6944364abd60f1ab85f"
       }
     ],
-    "outputSha": "96d1b6297173f535db1656fb32b4055696f3fc08",
+    "outputSha": "330ab01ccf5a6a0fbb854a7c66697ff94737d429",
     "input": "legal-notice.html",
     "output": [
       "legal-notice.html"
@@ -45,11 +31,25 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "patient-information.html",
-        "sha": "c0346d0adb6cc641af5febb4eb4e863573f50830"
+        "file": "index.html",
+        "sha": "9dba2874d6ddf2c7b3d815282daa4dd0ba273c43"
       }
     ],
-    "outputSha": "d7c0995ebb839fa070124735ed9219e1fcedfe72",
+    "outputSha": "17de1f984cb53216a32f2bef2f8833f193cd217f",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "patient-information.html",
+        "sha": "1b4f5cfeeb49350cdc58249313621de79169f65d"
+      }
+    ],
+    "outputSha": "71076c28d10caaa6acffcb7f6603f4b526286ef0",
     "input": "patient-information.html",
     "output": [
       "patient-information.html"
@@ -60,10 +60,10 @@
     "inputSha": [
       {
         "file": "patient.html",
-        "sha": "ed46eb77241acfc4b76480bdca64367b2e160051"
+        "sha": "27578c63bfda1c1dfd526b53a70fd311500fa28c"
       }
     ],
-    "outputSha": "4fb61d3488f46f3969890c638b8eccaa37c81f72",
+    "outputSha": "dc0ebae78e7bfc9992d1a563669fd55c5f2fb95f",
     "input": "patient.html",
     "output": [
       "patient.html"
